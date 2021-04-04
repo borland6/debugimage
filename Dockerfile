@@ -19,7 +19,7 @@ RUN apt-get update && \
         telnet \
         git \
         lynx \
-        tmux \
+        tmux 
    
 COPY begin.sh ./
 ENTRYPOINT ["/bin/bash", "./begin.sh"]
