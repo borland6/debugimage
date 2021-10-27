@@ -12,6 +12,7 @@ RUN apt-get update && \
 	netcat \
         iputils-ping \
         wget \
+	ldap-utils \
         curl \
         iproute2 \
         redis-tools \
